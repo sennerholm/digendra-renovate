@@ -1,0 +1,162 @@
+// Global versions
+ext {
+    if (!project.ext.has('PRIME_PROJECT_VERSION')) {
+        // Current version of the project
+        PRIME_PROJECT_VERSION = '1.0'
+    }
+
+    // External Dependencies
+    //ignore renovate scanning for activity
+    ACTIVITI_VERSION = "5.22.0"
+    // renovatem depname=org.apache.ant:ant
+    ANT_VERSION = "1.8.2"
+    // renovatem depname=org.owasp.esapi:esapi
+    ESAPI_VERSION = "2.2.0.0"
+    // renovatem depname=org.apache.httpcomponents:httpclient
+    APACHE_HTTP_CLIENT_VERSION = "4.5.13"
+    // renovatem depname=org.apache.httpcomponents:httpcore
+    APACHE_HTTP_CORE_VERSION = "4.4.11"
+    // renovatem depname=org.apache.directory.shared:shared-ldap
+    APACHE_SHARED_LDAP_VERSION = "0.9.15"
+    APACHEDS_CORE_VERSION = "1.5.5"
+    // renovatem depname=io.appium:java-client
+    APPIUM_VERSION = "7.3.0"
+    // renovatem depname=org.seleniumhq.selenium:selenium-java
+    SELENIUM_VERSION = "3.141.59"
+    // renovatem depname=net.sourceforge.barbecue:barbecue
+    BARBECUE_VERSION = "1.5-beta1"
+    // renovatem depname=org.apache.xmlgraphics:batik-dom
+    BATIK_VERSION = "1.14"
+    // renovatem depname=org.bouncycastle:bcpg-jdk15on
+    BOUNCYCASTLE_VERSION = "1.70"
+    // renovatem depname=org.apache-extras.beanshell:bsh
+    BSH_VERSION = "2.0b6"
+    // renovatem depname=com.mchange:c3p0
+    C3PO_VERSION = "0.9.5.5" // "0.9.1.2"
+    // not required
+    CAPTAIN_CASA_VERSION = "20210201"
+    // renovatem depname=org.codehaus.cargo:cargo-core-uberjar
+    CARGO_CORE_UBERJAR = "1.7.2"
+    // renovatem depname=com.cognitec:frsdkjava
+    COGNITEC_FRSDKJAVA = "9.4.0"
+    // renovatem depname=commons-beanutils:commons-beanutils
+    COMMONS_BEANUTILS_VERSION = "1.9.4"
+    // renovatem depname=commons-cli:commons-cli
+    COMMONS_CLI_VERSION = "1.2"
+    // renovatem depname=commons-codec:commons-codec
+    COMMONS_CODEC_VERSION = "1.10"
+    // renovatem depname=commons-collections:commons-collections
+    COMMONS_COLLECTIONS_LEGACY_VERSION = "3.2.2"
+    COMMONS_COLLECTIONS_VERSION = "4.1"
+    COMMONS_COMPRESS_VERSION = "1.21"
+    COMMONS_DBCP_VERSION = "1.4"
+    COMMONS_DIGISTER_VERSION = "2.0"
+    COMMONS_EMAIL_VERSION = "1.5"
+    COMMONS_IO_VERSION = "2.6"
+    COMMONS_LANG3_VERSION = "3.7"
+    COMMONS_TEXT = "1.9"
+    COMMONS_VALIDATOR_VERSION = "1.7"
+    ECLIPSE_JDT_CORE = "3.3.0-v_771"
+    DB2_DRIVER_VERSION = "11.5.0.0"
+    DFN_SOAPCLIENT_VERSION = "4.3"
+    DFN_UTIL_VERSION = "2.13"
+    ECLIPSE_RUNTIME_VERSION = "3.7.0"
+    EH_CACHE_VERSION = "2.6.11"
+    FACES_API_VERSION= "2.3"
+    GOOGLE_ZXING_VERSION = "3.3.3"
+    GREENMAIL_VERSION = "1.6.0"
+    GROOVY_VERSION = "3.0.9"
+    GSON_VERSION = "2.8.2"
+    H2_DRIVER_VERSION = "1.4.199"
+    HAMCREST_VERSION = "2.1"
+    HERMOD_THIN_CLIENT_VERSION = "2.4.3.RELEASE"
+    HIBERNATE_VERSION = "4.3.11.Final"
+    ICAL4J_VERSION = "1.0.7"
+    INI4J_VERSION = "0.5.2"
+    IPADDRESS_VERSION = "4.2.0"
+    ITEXT_VERSION = "2.1.7"
+    JACKSON_CORE_VERSION = "2.9.10"
+    JACKSON_DATABIND_VERSION = "2.9.10.8"
+    JACKSON_DATAFORMAT_CSV_VERSION = "2.12.3"
+    JASPER_REPORTS_VERSION = "6.7.1"
+    JAVA_CSV_VERSION = "2.0"
+    JAVASE_VERSION = "3.3.0"
+    JAVAX_ACTIVATION_VERSION = "1.1.1"
+    JAVAX_JWS_VERISON = "1.1"
+    JAVAX_SERVLET_API_VERSION = "3.1.0"
+    JAVAX_SERVLET_VERSION = "3.0.0.v201103241009"
+    JAVAX_VALIDATION_API = "2.0.1.Final"
+    JAVAX_WS_RS_API = "2.1"
+    JAVAX_XML_VERISON = "2.2.5"
+    JAVA_SUPPORT = "7.5.0"
+    JAXB_CORE_VERSION = "2.3.0.1"
+    JAXB_IMPL_VERSION = "2.3.3"
+    JAXB_XJC_VERSION = "2.3.3"
+    JAXWS_TOOLS_VERSION = "2.2.7"
+    JMH_CORE = "1.21"
+    JMH_GENERATOR_ANNPROCESS = "1.21"
+    JDT_VERSION = "3.1.0"
+    JAI_IMAGEIO_VERSION = "1.4.0"
+    JERSEY_VERSION = "2.26"
+    JETTY_ALL_VERSION = "9.4.43.v20210629"
+    JETTY_SERVER_VERSION = "9.4.43.v20210629"
+    JFREE_CHART_VERSION = "1.0.13"
+    JMOCK_VERSION = "2.5.1"
+    JNA_VERSION = "4.1.0"
+    JPA_VERSION = "2.2"
+    JSON_PATH_VERSION = "2.2.0"
+    JSP_API_VERSION = "2.1"
+    JSOUP_VERSION = "1.14.3"
+    JUEL_VERSION = "2.2.1"
+    JUNIT4_VERSION = "4.12"
+    JUNIT5_PLATFORM_VERSION = "1.4.2"
+    JUNIT5_VERSION = "5.7.0"
+    JUNIT5_VINTAGE_VERSION  = "5.7.0"
+    NOT_COMMONS_SSL_VERSION = "0.3.20"
+    UNBOUNDID_LDAPSDK_VERSION = "4.0.11"
+    
+    // IF you update LIQUIBASE_VERSION to 3.7.X please remove the logback.xml in db_config/src/main/resources 
+    // + the TODO part of build.gradle in distribution!
+    // + the TODO part of liquibase.gradle in PrimeBuild/gradle/liquibase.gradle!
+    // Then it's no longer necessary to do this logback workaround.
+    LIQUIBASE_VERSION = "3.6.3"
+
+    LOG4J_VERSION = "2.17.1"
+    MICROSOFT_SQL_JDBC_VERSION = "7.4.1.jre8"
+    ANTLR4_RUNTIME_VERSION = "4.7.2" // required by recent MSSQL drivers under certain conditions
+    MOCKITO_VERSION = "3.5.10"
+    MARIADB_DRIVER_VERSION = "2.4.4"
+    MYBATIS_VERSION = "3.5.9"
+    NEXUS_CMSDK_VERSION = "8.4.1"
+    NEXUS_EON_VALIDATIONSERVICE_VERSION = "0.147"
+    NEXUS_SMARTCARD_CONNECTOR = "1.8.0"
+    NIMBUS_JOSE_JWT_VERSION = "8.23"
+    OPENSAML_VERSION = "2.6.4"
+    ORACLE_JDBC8_DRIVER_VERSION = "19.3.0.0"
+    POSTGRES_DRIVER_VERSION = "42.2.13"
+    POWERMOCK_API_MOCKITO_VERSION = "1.6.3"
+    POWERMOCK_API_MOCKITO2_VERSION = "2.0.7"
+    POWERMOCK_MODULE_JUNIT4_VERSION = "1.6.3"
+    QUARZ_SCHEDULER_VERSION = "2.3.2"
+    SLF4J_VERSION = "1.7.25"
+    SPRING_BOOT_STARTER_VERSION = "2.1.8.RELEASE"
+    SPRING_BATCH_VERSION = "4.0.1.RELEASE"
+    SPRING_HATEOAS_VERSION = "0.25.1.RELEASE"
+    SPRING_INTEGRATION_VERSION = "5.1.13.RELEASE"
+    SPRING_LDAP_VERSION = "2.3.4.RELEASE"
+    SPRING_RETRY_VERSION = "1.2.4.RELEASE"
+    SPRING_SAML2_VERSION = "1.0.9.RELEASE"
+    SPRING_SECURITY_VERSION = "5.0.13.RELEASE"
+    // renovatem depname=org.springframework:spring-core
+    SPRING_VERSION = "5.1.20.RELEASE"
+    SUBETHASMTP_VERSION = "3.1.7"
+    TOMCAT_EMBED_VERSION = "9.0.54"
+    VELOCITY_ENGINE_CORE_VERSION = "2.3"
+    WIREMOCK_VERSION = "2.27.2"
+    SNAKEYAML_VERSION = "1.29"
+}
+
+allprojects {
+    version = rootProject.version
+}
+

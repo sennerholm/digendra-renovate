@@ -1,0 +1,34 @@
+sourceSets.test.resources {
+    srcDirs = ['db', 'src/test/resources']
+}
+
+sourceSets.test.java {
+    // just to ignore fitnesse tests
+    srcDirs = ['src/main/resources']
+}
+
+dependencies {
+		implementation("org.apache.ant:ant:${ANT_VERSION}")
+    implementation("org.owasp.esapi:esapi:${ESAPI_VERSION}") // to override outdated esapi we get via eclntjsfserver
+    implementation("org.apache.commons:commons-lang3:${COMMONS_LANG3_VERSION}")
+    implementation("org.apache.velocity:velocity-engine-core:${VELOCITY_ENGINE_CORE_VERSION}")
+
+    runtime("de.vps:captain-casa-custom:${CAPTAIN_CASA_VERSION}.+")
+    runtime(project(":frontend_designer"))
+    runtime(project(":monitoring-rest-service"))
+    runtime("org.apache.logging.log4j:log4j-layout-template-json:${LOG4J_VERSION}")
+
+    // captain casa runtime dependencies
+    runtime("org.glassfish:javax.faces:2.3.9") // fails on tomcat start without
+    runtime("javax.servlet.jsp.jstl:jstl-api:1.2") // fails on login page without
+    runtime("javax.servlet.jsp:jsp-api:${JSP_API_VERSION}") // not sure if it's needed
+    runtime("org.jsoup:jsoup:1.10.3") // not sure if it's needed
+    runtime("javax.servlet:servlet-api:2.5") // not sure if it's needed
+
+  
+    testImplementation(project(path: ':persistence', configuration: 'testUtilsCompile'))
+    testImplementation(project(path: ':utils', configuration: 'testUtilsCompile'))
+    testImplementation("com.ibm.db2:jcc:$DB2_DRIVER_VERSION")
+
+}
+

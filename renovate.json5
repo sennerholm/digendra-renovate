@@ -1,0 +1,75 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "commitMessagePrefix": "#CRED-0 -",
+  "regexManagers": [
+    {
+      "fileMatch": ["./versioning\\.gradle$"],
+      // Need to matchS
+      // renovatem depname=com.google.code.gson:gson
+      // GSON_VERSION = "2.8.2"
+      "matchStrings": [
+        "renovatem depname=(?<depName>.*?)\n *.*?_VERSION = \"(?<currentValue>.*?)\"\n"
+      ],
+      "datasourceTemplate": "maven"
+    }
+  ],
+  "packageRules": [
+    // gradle
+    {
+      "groupName": "apache tomcat",
+      "matchPackagePrefixes": [
+        "org.apache.tomcat.embed:"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ]
+    },
+    {
+      "groupName": "spring",
+      "matchPackagePrefixes": [
+        "org.springframework:",
+        "org.springframework.retry:",
+        "org.springframework.security:",
+        "org.springframework.ldap:",
+        "org.springframework.hateoas:",
+        "org.springframework.batch:",
+        "org.springframework.integration:"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ]
+    },
+    {
+      "groupName": "apache logging log4j",
+      "matchPackagePrefixes": [
+        "org.apache.logging.log4j:"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ]
+    },
+    {
+      "groupName": "bouncy castle",
+      "matchPackagePrefixes": [
+        "org.bouncycastle:"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ]
+    },
+    {
+      "groupName": "groovy",
+      "matchPackagePrefixes": [
+        "org.codehaus.groovy:"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ]
+    }
+  ]
+}
