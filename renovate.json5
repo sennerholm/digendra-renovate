@@ -8,10 +8,10 @@
     {
       "fileMatch": ["./masterBuild/gradle/versioning\\.gradle$"],
       // Need to matchS
-      // renovatem depname=com.google.code.gson:gson
-      // GSON_VERSION = "2.8.2"
+      // renovatem depname=org.apache.commons:commons-lang3
+      //    COMMONS_LANG3_VERSION = "3.7"
       "matchStrings": [
-          "renovatem depname=(?<depName>.*?)|\s*\n *.*?_VERSION = \"(?<currentValue>.*?)\"\s*\n"
+          "renovatem depname=(?<depName>.*?)\s*\n *.*?_VERSION = \"(?<currentValue>.*?)\"\s*\n"
       ],
       "datasourceTemplate": "maven"
     }
