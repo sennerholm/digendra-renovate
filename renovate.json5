@@ -11,7 +11,7 @@
       // renovatem depname=org.apache.commons:commons-lang3
       //    COMMONS_LANG3_VERSION = "3.7"
       "matchStrings": [
-          "renovatem depname=(?<depName>.*?) *\n *.*?_VERSION = \"(?<currentValue>.*?)\" *\n"
+          "renovatem depname=(?<depName>.*?) *\r*\n *.*?_VERSION = \"(?<currentValue>.*?)\" *\r*\n"
       ],
       "datasourceTemplate": "maven"
     }
