@@ -6,7 +6,7 @@
   "commitMessagePrefix": "#CRED-0 -",
   "regexManagers": [
     {
-      "fileMatch": ["./masterBuild/gradle/versioning\\.gradle$"],
+      "fileMatch": ["versioning\\.gradle$"],
       // Need to matchS
       // renovatem depname=org.apache.commons:commons-lang3
       //    COMMONS_LANG3_VERSION = "3.7"
