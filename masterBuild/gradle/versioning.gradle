@@ -82,7 +82,7 @@ ext {
     // renovatem depname=com.google.zxing:javase
     GOOGLE_ZXING_VERSION = "3.3.3"
     // renovatem depname=com.icegreen:greenmail
-    GREENMAIL_VERSION = "1.6.0"
+    GREENMAIL_VERSION = "1.6.14"
     // renovatem depname=org.codehaus.groovy:groovy-jsr223
     GROOVY_VERSION = "3.0.9"
     // renovatem depname=com.google.code.gson:gson
