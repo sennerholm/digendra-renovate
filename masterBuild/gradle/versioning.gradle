@@ -132,7 +132,7 @@ ext {
     // renovatem depname=com.sun.xml.bind:jaxb-core
     JAXB_CORE_VERSION = "2.3.0.1"
     // renovatem depname=com.sun.xml.bind:jaxb-impl
-    JAXB_IMPL_VERSION = "2.3.3"
+    JAXB_IMPL_VERSION = "2.3.9"
     // renovatem depname=com.sun.xml.bind:jaxb-xjc
     JAXB_XJC_VERSION = "2.3.3"
     // renovatem depname=com.sun.xml.ws:jaxws-tools
