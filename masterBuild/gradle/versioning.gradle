@@ -68,7 +68,7 @@ ext {
     // renovatem depname=org.eclipse.jdt:core
     ECLIPSE_JDT_CORE = "3.3.0-v_771"
     // renovatem depname=com.ibm.db2:jcc
-    DB2_DRIVER_VERSION = "11.5.0.0"
+    DB2_DRIVER_VERSION = "11.5.9.0"
     // renovatem depname=de.dfn:dfn-soapclient-jdk11
     DFN_SOAPCLIENT_VERSION = "4.3"
     // renovatem depname=de.dfn:dfn-utils-jdk11
