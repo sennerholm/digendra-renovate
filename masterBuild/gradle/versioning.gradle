@@ -164,7 +164,7 @@ ext {
     // renovatem depname=javax.servlet.jsp:jsp-api
     JSP_API_VERSION = "2.1"
     // renovatem depname=org.jsoup:jsoup
-    JSOUP_VERSION = "1.14.3"
+    JSOUP_VERSION = "1.17.2"
     // renovatem depname=juel:juel
     JUEL_VERSION = "2.2.1"
     // renovatem depname=junit:junit
