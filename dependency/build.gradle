@@ -22,7 +22,7 @@ dependencies {
     runtime("org.glassfish:javax.faces:2.3.9") // fails on tomcat start without
     runtime("javax.servlet.jsp.jstl:jstl-api:1.2") // fails on login page without
     runtime("javax.servlet.jsp:jsp-api:${JSP_API_VERSION}") // not sure if it's needed
-    runtime("org.jsoup:jsoup:1.10.3") // not sure if it's needed
+    runtime("org.jsoup:jsoup:1.17.2") // not sure if it's needed
     runtime("javax.servlet:servlet-api:2.5") // not sure if it's needed
 
   
