@@ -101,8 +101,8 @@ ext {
     INI4J_VERSION = "0.5.2"
     // renovatem depname=com.github.seancfoley:ipaddress
     IPADDRESS_VERSION = "4.2.0"
-    // renovatem depname=com.lowagie:itext
-    ITEXT_VERSION = "2.1.7"
+    // renovatem depname=com.itextpdf:itextpdf
+    ITEXT_VERSION = "5.5.6"
     // renovatem depname=jackson.version
     JACKSON_CORE_VERSION = "2.9.10"
     // renovatem depname=com.fasterxml.jackson.core:jackson-databind
