@@ -93,8 +93,8 @@ ext {
     HAMCREST_VERSION = "2.1"
     // renovatem depname=com.nexusgroup.cod.hermod.client:cod-hermod-thin-client
     HERMOD_THIN_CLIENT_VERSION = "2.4.3.RELEASE"
-    // renovatem depname=org.hibernate:hibernate-core
-    HIBERNATE_VERSION = "4.3.11.Final"
+    // renovatem depname=org.hibernate.orm:hibernate-core
+    HIBERNATE_VERSION = "7.4.6.Final"
     // renovatem depname=org.mnode.ical4j:ical4j
     ICAL4J_VERSION = "1.0.7"
     // renovatem depname=org.ini4j:ini4j
